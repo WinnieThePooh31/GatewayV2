@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Charlyie's Creepy Confections</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eater&family=Flavors&family=Frijole&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+  <section class="header">
+    <nav>
+  
+      <a href="index.html"><img src="cupcakelogo.png" alt=”CupcakeLogo”></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul> 
+          <li class="nav-item"><a href="index.html">HOME</a></li>
+          <li class="nav-item"><a href="menu.html">MENU</a></li>
+          <li class="nav-item"><a href="contactus.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  
+
+  <div class="text-box" img src="C3img/cupcakebanner.png" alt=”Banner” >
+    <h1>Charlyie's Creepy Confections</h1>
+    <h2>Brewing Spooky Treats Since 1745</h2>
+    <p>When 'The Halloween Queen' first opened Charlyie's Creepy Confections in Ireland back in the 1700s, she had no idea it would
+span decades and become a ninth generation bakery loved by locals and tourists alike.</p>
+    <a href="contactus.html" class="hero-btn"> Visit Us...If You Dare.</a>
+    
+  </div>
+  </section> 
+  
+
+  </section>
+  <!--- JS for ToggleMenu --->
+  <script>
+    var navLinks = document.getElementById ("navLinks");
+  function showMenu(){
+  navLinks.style.right ="0"
+}    
+    function hideMenu(){
+  navLinks.style.right ="-200px"
+}    
+  </script>
+  <script src="script.js"></script>
+  
+    
+</body>
+<footer id="media">
+  <link rel="stylesheet" href="style.css">
+  <a href="https://www.instagram.com/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram Logo" style="width:50px;height:50px;">
+  </a>
+  <a href="https://www.facebook.com/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="Facebook Logo" style="width:50px;height:50px;">
+  </a>
+  <a href="https://www.yelp.com/" target="_blank">
+<img src="https://drjamestalkington.com/wp-content/uploads/2021/02/yelp-logo-png-round-8-copy.png" alt="Yelp Logo" style="width:50px;height:50px;">
+ </a>
+  <a href="https://twitter.com/?lang=en" target="_blank"> 
+<img src="https://pnggrid.com/wp-content/uploads/2021/07/Twitter-Logo-Square.png" alt="Twitter Logo" style="width:50px;height:50px;">
+ </a>
+</html>
